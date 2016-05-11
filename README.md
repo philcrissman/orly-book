@@ -71,44 +71,83 @@ This will write the binary file that the orly-appstore.herokuapp.com creates to 
 ### Animals
 
 1: Bear
+
 2: Cat
+
 3: Fox
+
 4: Cow
+
 5: Horse
+
 6: Deer
+
 7: Baboon
+
 8: Some sort of rodent, I guess?
+
 9: Platypus
+
 10: Bat
+
 11: Pelican
+
 12: A bird?
+
 13: A different bird?
+
 14: Crow
+
 15: Ostrich
+
 16: Chameleon
+
 17: Frog
+
 18: Lizard
+
 19: Gecko
+
 20: Snake
+
 21: Catfish
+
 22: Some other kind of fish
+
 23: Yet another different fish
+
 24: Eel
+
 25: Shark?
+
 26: Butterfly
+
 27: Some insect
+
 28: Fly
+
 29: Dragonfly
+
 30: Beetle
+
 31: Spider
+
 32: Scorpion
+
 33: Crab
+
 34: Lobster
+
 35: Something?
+
 36: Something else?
+
 37: Definitely a thing
+
 38: Probably a jellyfish
+
 39: I have no idea, maybe a rock?
+
 40: Fungi
 
 ## Development
