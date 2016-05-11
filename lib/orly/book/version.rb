@@ -1,5 +1,5 @@
 module Orly
-  module Book
+  class Book
     VERSION = "0.1.0"
   end
 end

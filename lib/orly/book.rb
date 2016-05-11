@@ -1,7 +1,24 @@
 require "orly/book/version"
+require 'net/http'
 
 module Orly
-  module Book
-    # Your code goes here...
+  class Book
+    def initialize(filename="orly", options={})
+      @title = URI.encode(options[:title]) || "%20"
+      @top_text = URI.encode(options[:top_text]) || "%20"
+      @author = URI.encode(options[:author]) || "%20"
+      @theme = options[:theme] || rand(17)
+      @animal = options[:animal] || rand(40)+1
+      generate
+    end
+
+    def generate
+      Net::HTTP.start("orly-appstore.herokuapp.com") do |http|
+        resp = http.get("title=#{@title}&top_text=#{@top_text}&author=#{@author}&theme=#{@theme}&image_code=#{@animal}")
+        open("#{@filename}.png", "wb") do |file|
+          file.write(resp.body)
+        end
+      end
+    end
   end
 end
