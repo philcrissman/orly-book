@@ -35,21 +35,37 @@ This will write the binary file that the orly-appstore.herokuapp.com creates to 
 ### Themes
 
 0: Deep Purple
+
 1: Grey
+
 2: Wine
+
 3: Red
+
 4: Burgundy
+
 5: Indigo
+
 6: Bright Red
+
 7: Sky Blue
+
 8: Yellow
+
 9: Navy Blue
+
 10: Purple
+
 11: Green
+
 12: Teal
+
 13: Blue
+
 14: A different red, I guess?
+
 15: Brighter green
+
 16: Lighter green
 
 ### Animals
